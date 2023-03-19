@@ -163,10 +163,10 @@
   //   name: 'luci-app-bypass',
   //   desc: 'Bypass代理',
   // },
-  // {
-  //   name: 'luci-app-ssr-plus',
-  //   desc: 'SSR Plus+代理',
-  // },
+  {
+    name: 'luci-app-ssr-plus',
+    desc: 'SSR Plus+代理',
+  },
   // {
   //   name: 'luci-app-passwall',
   //   desc: 'Passwall代理',
@@ -207,22 +207,22 @@
     name: 'luci-app-zerotier',
     desc: 'ZeroTier内网穿透',
   },
+//   {
+//     name: 'luci-app-openvpn',
+//     desc: 'OpenVPN客户端',
+//   },
   {
-    name: 'luci-app-openvpn',
-    desc: 'OpenVPN客户端',
+    name: 'luci-app-docker',
+    desc: 'Docker容器',
   },
-  // {
-  //   name: 'luci-app-docker',
-  //   desc: 'Docker容器',
-  // },
   // {
   //   name: 'luci-app-adbyby-plus',
   //   desc: '广告屏蔽大师Plus +',
   // },
-  // {
-  //   name: 'luci-app-adguardhome',
-  //   desc: 'AdGuard home广告过滤',
-  // },
+  {
+    name: 'luci-app-adguardhome',
+    desc: 'AdGuard home广告过滤',
+  },
   {
     name: 'luci-app-unblockmusic',
     desc: '解锁网易云灰色歌曲3合1新版本',
@@ -239,11 +239,11 @@
     name: 'luci-app-pushbot',
     desc: '全能推送（钉钉推送，企业微信推送，Bark，PushPlus推送）',
   },
-  {
-    name: 'luci-app-aliyundrive-webdav',
-    desc: '阿里云盘WebDAV服务',
-  },
-  {
+//   {
+//     name: 'luci-app-aliyundrive-webdav',
+//     desc: '阿里云盘WebDAV服务',
+//   },
+//   {
     name: 'luci-app-turboacc',
     desc: 'Turbo ACC 网络加速(支持Fast Path或者硬件NAT)',
   },
